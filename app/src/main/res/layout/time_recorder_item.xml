@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="30px"
+    android:background="#eee"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="Lorem Ipsum Dolor Sit Amet"
+        android:fontFamily="roboto"
+        android:textSize="25dp"
+        android:padding="10px"
+        android:layout_marginLeft="20px"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/txt_time_record_name"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="100 Days"
+        android:textSize="20dp"
+        android:id="@+id/txt_time_record_time"
+        android:layout_below="@id/txt_time_record_name"
+        android:padding="10px"
+        android:layout_marginLeft="22px"
+        android:textColor="#03A9F4"
+        >
+
+    </TextView>
+</RelativeLayout>
